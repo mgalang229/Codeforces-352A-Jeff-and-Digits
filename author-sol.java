@@ -37,9 +37,9 @@ public class Main {
 				out.println(0);
 			}
 			else {
-				//group the number of 5s and 9s into groups of 9
+				//group the number of 5s into groups of 9
 				//there are going to be floor(c5 / 9) groups that are filled with 5s
-				//we can use all of the 5s from all of the groups to get a multiple of 9
+				//we can use all of the 5s from each group to get a multiple of 9 (e.g., 1 group = 45 = 5(9))
 				for(int i = 0; i < c5; i++) {
 					out.print(5);
 				}
